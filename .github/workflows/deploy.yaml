@@ -15,8 +15,6 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           secrets: |
-            FORWARD_TO_ADDRESS
-            DISCORD_WEBHOOK_URL
             POLICY_AUD
             TEAM_DOMAIN
         env:
