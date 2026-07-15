@@ -14,5 +14,9 @@ jobs:
         with:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          secrets: |
+            FORWARD_TO_ADDRESS
+            DISCORD_WEBHOOK_URL
         env:
           FORWARD_TO_ADDRESS: ${{ secrets.FORWARD_TO_ADDRESS }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
