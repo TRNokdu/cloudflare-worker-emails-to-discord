@@ -18,5 +18,5 @@ jobs:
             POLICY_AUD
             TEAM_DOMAIN
         env:
-          POLICY_AUD: ${{ secrets.FORWARD_TO_ADDRESS }}
-          TEAM_DOMAIN: ${{ secrets.FORWARD_TO_ADDRESS }}
+          POLICY_AUD: ${{ secrets.POLICY_AUD }}
+          TEAM_DOMAIN: ${{ secrets.TEAM_DOMAIN }}
