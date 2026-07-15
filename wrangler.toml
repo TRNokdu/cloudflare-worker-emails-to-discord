@@ -2,9 +2,10 @@ name = "discordhook"
 main = "index.js"
 compatibility_date = "2025-07-13"
 
-[vars]
-# The necessary secrets are:
-# - DISCORD_WEBHOOK_URL
+# [vars]
+
+# USE .dev.vars FILE
+
 # You can set this to forward to an address as well
 # - FORWARD_TO_ADDRESS
 

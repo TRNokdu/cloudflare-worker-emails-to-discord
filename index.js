@@ -36,7 +36,7 @@ export default {
             name: `${(this.trimToLimit(email.from.name, 100))}${email.from.name.length > 64 ? "\n" : " "}<${this.trimToLimit(email.from.address, 100)}>`, // Limit of 256 characters, but we will be a bit careful
           },
           footer: {
-            text: `This email was sent to ${this.trimToLimit(message.to, 100)}\nEnvelope From: ${this.trimToLimit(message.from, 100)}`, // Limit of 2048 characters, but we will be careful
+            text: `${this.trimToLimit(message.to, 100)}으로 도착한 메일입니다`, // Limit of 2048 characters, but we will be careful
           },
         },
       ],
